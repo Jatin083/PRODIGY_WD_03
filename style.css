@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+
+    color: rgb(234, 155, 51);
+}
+
+.board {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(234, 155, 51);
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.winnerText {
+    color: rgb(234, 155, 51);
+    font-size: 40px;
+}
+
+.playerX {
+    font-size: 40px;
+    color: rgb(234, 155, 51);
+}
+
+.playerO {
+    font-size: 40px;
+    color: rgb(234, 155, 51);
+}
+
+
